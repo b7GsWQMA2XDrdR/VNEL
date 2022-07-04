@@ -9,6 +9,9 @@ WIKIPerson is a high-quality human-annotated visual person linking dataset datas
 #### VNEL task
 ---
 The VNEL takes an image as input with bounding boxes around objects, and then links them to entities in KB. 
+
+![VNEL](VNEL.png)
+
 Generally, each entity $e_i \in E$ is often characterized by rich textual and visual descriptions, and each modality of the description can provide sufficient information for visual entity linking. To make the task more clearly presented, we further decompose the VNEL task into three sub-tasks(i.e., visual to visual entity linking (V2VEL), visual to textual entity linking (V2TEL), and visual to visual-textual entity linking (V2VTEL)) according to the type of description used in learning entity embeddings. 
 
 - V2VEL
@@ -29,15 +32,15 @@ Since only the entity information varies in different sub-tasks, we split Knowle
 
 | Type  |                           Filename                           | File Size |                                        Num Records |
 | :---- | :----------------------------------------------------------: | --------: | -------------------------------------------------: |
-| Train |                            train                             |     900MB | [125.jpg]   \[id:125, boudingbox:[], label:Q22686] |
-| Dev   |                             dev                              |     300MB |                                  Same as the train |
-| Test  | [test](https://1drv.ms/u/s!An1FOVJ0d3wsa6zggonCbGKZHJg?e=FfVkkU) |     300MB |                                  Same as the train |
+| Train |                            train                             |     912MB | [125.jpg]   \[id:125, boudingbox:[], label:Q22686] |
+| Dev   |                             dev                              |     285MB |                                  Same as the train |
+| Test  | [test](https://1drv.ms/u/s!An1FOVJ0d3wsbYBrnX5ic8MI0dc?e=OYwvnU) |     294MB |                                  Same as the train |
 
 - V2VEL
 
 | Type      | Filename | File Size     | Num Records     |
 | :---        |    :----:   |          ---: |          ---: |
-| Knowledge Base      | KB_visual |   |[Q22686.jpg, ...]|
+| Knowledge Base      | KB_visual | 5,512MB |[Q22686.jpg, ...]|
 
 
 - V2TEL
@@ -50,7 +53,7 @@ Since only the entity information varies in different sub-tasks, we split Knowle
 
 | Type      | Filename | File Size     | Num Records     |
 | :---        |    :----:   |          ---: |          ---: |
-| Knowledge Base | KB_visual_textaul |   |Both images and text information  avaiable|
+| Knowledge Base | KB_visual_textaul | 5,519MB |Both images and text information  avaiable|
 
 
 #### Use of external information
