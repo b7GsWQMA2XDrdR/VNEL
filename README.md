@@ -25,30 +25,32 @@ Finally, both the visual description and the textual description $(V_{e_i}, T_{e
 ----
 Since only the entity information varies in different sub-tasks, we split Knowledge Base  size into three parts and share the same the train, dev and test datasets in three sub-tasks.
 
-| Type  | Filename | File Size |                                     Num Records |
-| :---- | :------: | --------: | ----------------------------------------------: |
-| Train |  train   |           | [125.jpg]\[id:125, boudingbox:[], label:Q22686] |
-| Dev   |   dev    |           |                               Same as the train |
-| Test  |   test   |           |                               Same as the train |
+(We only release the test set and we will release all results after the paper accepted.)
+
+| Type  |                           Filename                           | File Size |                                        Num Records |
+| :---- | :----------------------------------------------------------: | --------: | -------------------------------------------------: |
+| Train |                            train                             |     900MB | [125.jpg]   \[id:125, boudingbox:[], label:Q22686] |
+| Dev   |                             dev                              |     300MB |                                  Same as the train |
+| Test  | [test](https://1drv.ms/u/s!An1FOVJ0d3wsa6zggonCbGKZHJg?e=FfVkkU) |     300MB |                                  Same as the train |
 
 - V2VEL
 
 | Type      | Filename | File Size     | Num Records     |
 | :---        |    :----:   |          ---: |          ---: |
-| Knowledge Base      | KB_visual |   |[Q22686.jpg...]|
+| Knowledge Base      | KB_visual |   |[Q22686.jpg, ...]|
 
 
 - V2TEL
 
 | Type      | Filename | File Size     | Num Records     |
 | :---        |    :----:   |          ---: |          ---: |
-| Knowledge Base      | KB_textual |  |[Q226868:{'Name':"", 'Description':"",...}...]|
+| Knowledge Base      | [KB_textual](https://1drv.ms/u/s!An1FOVJ0d3wsbCxErXSCwwMek1M?e=f46diI) | 7MB |[Q226868:{'Name':"", 'Description':"",...}...]|
 
 - V2VTEL
 
 | Type      | Filename | File Size     | Num Records     |
 | :---        |    :----:   |          ---: |          ---: |
-| Knowledge Base  | KB_visual_textaul |   |Both images and text information  avaiable|
+| Knowledge Base | KB_visual_textaul |   |Both images and text information  avaiable|
 
 
 #### Use of external information
