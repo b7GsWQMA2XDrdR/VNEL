@@ -1,9 +1,11 @@
 ## Visual Named Entity Linking
-#### Introduction
+
+### Introduction
+
 ---
 The VNEL(Visual Named Entity Linking) takes an image as input, then recognize visual mentions with bounding boxes around and links them to the corresponding entities in the large Knowledge Base. As a named entity linking task, it transfers the scenario from the traditonal textual modality to the pure visual modality.
 
-#### Sub-tasks
+### Sub-tasks
 
 ---
 
@@ -20,8 +22,8 @@ Generally, each entity is often characterized by rich textual and visual descrip
 
 **To participate in the VNEL leaderboard, please go here: https://jqhlgsxvmn.github.io/JQHlGSXvMN-github.io/**
 
+### Datasets
 
-#### Datasets
 ----
 WIKIPerson is a high-quality human-annotated visual person linking dataset focused on Visual Named Entity Linking. Unlike previously commonly-used datasets in entity linking, the mention in WIKIPerson is only an image containing the PERSON entity with its bounding box. The corresponding label identifies a unique entity in Wikipedia. As the most common entity type with relatively low annotating cost, we first focus our research on the PERSON type and use it as data V1.0. We will extend locations, yachts, and other more diverse types of the entity in the future.
 
@@ -29,7 +31,7 @@ WIKIPerson is a high-quality human-annotated visual person linking dataset focus
 
 Notice that our dataset is labeled on the News-related dataset with diverse agencies such as USA TODAY, BBC, the Washington Post, and so on, which means the quality of the image is much higher than the image that is directly searched by search engine. 
 
-#### Dataset Example
+### Dataset Example
 
 ------
 
@@ -37,7 +39,7 @@ The covered entity in the images is diverse with different occupations, ages, co
 
 ![Example](Example.png)
 
-#### Getting Data
+### Getting Data
 
 ------
 
@@ -77,7 +79,7 @@ The second part of WIKIPerson is the high-quality annotated images which contain
 
 (Notice：After the split of the original dataset and to debias influence of the entity's popularity, we remove some instances so that each entity appears at most once in WIKIPerson_Test_V1.0. It may make the sum of numbers slightly smaller than 48k.)
 
-#### Legal Notices
+### Legal Notices
 
 ------
 
@@ -85,7 +87,7 @@ Any contributors grant you a license to the WIKIPerson Dataset and other content
 
 Any contributors reserve all other rights, whether under their respective copyrights, patents, or trademarks, whether by implication, estoppel or otherwise.
 
-#### Citing
+### Citing
 
 ------
 
