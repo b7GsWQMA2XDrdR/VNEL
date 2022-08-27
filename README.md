@@ -25,7 +25,7 @@ Generally, each entity is often characterized by rich textual and visual descrip
 ----
 WIKIPerson is a high-quality human-annotated visual person linking dataset focused on Visual Named Entity Linking. Unlike previously commonly-used datasets in entity linking, the mention in WIKIPerson is only an image containing the PERSON entity with its bounding box. The corresponding label identifies a unique entity in Wikipedia. As the most common entity type with relatively low annotating cost, we first focus our research on the PERSON type and use it as data V1.0. We will extend locations, yachts, and other more diverse types of the entity in the future.
 
-![dp](/Users/jerrysun/Desktop/VELP/Process.png)
+![Process](/Users/jerrysun/Desktop/VELP/Process.png)
 
 Notice that our dataset is labeled on the News-related dataset with diverse agencies such as USA TODAY, BBC, the Washington Post, and so on, which means the quality of the image is much higher than the image that is directly searched by search engine. 
 
@@ -35,7 +35,7 @@ Notice that our dataset is labeled on the News-related dataset with diverse agen
 
 The covered entity in the images is diverse with different occupations, ages, countries, and so on. Besides, it is also consistent with long-tail distribution which requires higher linking ability.
 
-![datasetEx](/Users/jerrysun/Desktop/VELP/Example.png)
+![Example](/Users/jerrysun/Desktop/VELP/Example.png)
 
 #### Getting Data
 
