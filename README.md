@@ -43,7 +43,7 @@ The covered entity in the images is diverse with different occupations, ages, co
 
 ------
 
-**To access our dataset, please refer to this ** [WIKIPerson_Kaggle](https://kaggle.com/datasets/8b393676c819ce23e306336342d0b38d19b37f61de71dc5957ba61b404ac3b61). A detailed elaboration on the data format and information can be viewed via the link. Notice there are much entity in the Large Knowledge Base are unseen in the input images, so a general Feature Extraction Model is desired in this task. 
+**To access our dataset, please refer to this** [WIKIPerson_Kaggle](https://kaggle.com/datasets/8b393676c819ce23e306336342d0b38d19b37f61de71dc5957ba61b404ac3b61). A detailed elaboration on the data format and information can be viewed via the link. Notice there are much entity in the Large Knowledge Base are unseen in the input images, so a general Feature Extraction Model is desired in this task. 
 
 |                 | *#Image* | *#Coverd Entity* | *#Knowledge Base* |
 | --------------- | -------- | ---------------- | ----------------- |
