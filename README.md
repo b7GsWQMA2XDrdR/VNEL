@@ -43,41 +43,11 @@ The covered entity in the images is diverse with different occupations, ages, co
 
 ------
 
-**To access our dataset, please refer to this kaggle link.** 
+**To access our dataset, please refer to this ** [WIKIPerson_Kaggle](https://kaggle.com/datasets/8b393676c819ce23e306336342d0b38d19b37f61de71dc5957ba61b404ac3b61). A detailed elaboration on the data format and information can be viewed via the link. Notice there are much entity in the Large Knowledge Base are unseen in the input images, so a general Feature Extraction Model is desired in this task. 
 
-|                 | #Image | #Coverd Entity | #$M_{avg}^{I}$ | #Knowledge Base |
-| --------------- | ------ | -------------- | -------------- | --------------- |
-| WIKIPerson_V1.0 | 48k    | 13K            | 1.08           | 120K            |
-
-WIKIPerson contains two main parts. The first part is the Knowledge Base which serves as the recall corpus of the entity linking, the goal of the task is to find the correct entity in the Large KB. Given three sub-tasks of VNEL, we provide both textual and visual Knowledge_Base. In V1.0, the scale of KB is about 120K.
-
-- V2VEL
-
-| Type      | Entity Scale | File Size     | Instance Format |
-| :---        |    :-----   |          :--- |          :--- |
-| Visual_Knowledge_Base_V1.0 | 120K | 5.31GB |["Q23.jpg", "Q24.jpg", "Q42.jpg", "Q76.jpg", ...., "Q100669073".jpg]|
-
-
-- V2TEL
-
-| Type      | Entity Scale | File Size     | Instance Format |
-| :---        |    :----:   |          ---: |          ---: |
-| Textual_Knowledge_Base_V1.0 | 120K | 7.35MB |[{"id": "Q4842236", "name": "Bahador Abdi", "description": "Iranian footballer", "image_url": "...", "lastrevid": 1501164266, "modified": "2021-09-21T11:56:36Z", "..."},......]|
-
-- V2VTEL
-
-| Type      | Entity Scale | Instance Format |
-| :---        |    :----:   |          ---: |
-| Multimodal_Knowledge_Base_V1.0 | 120K |Contains  both Visual and Textual Information|
-
-The second part of WIKIPerson is the high-quality annotated images which contain the entity's bounding box in each image and its corresponding entity in KB (Here, we use Wikipedia as the backend). All images are resized to 224 x 224.
-
-| Type                      | Instance Nums |                                              Instance Format |
-| :------------------------ | :-----------: | -----------------------------------------------------------: |
-| WIKIPerson_Train_Dev_V1.0 |      40k      | [ {"id": 38880, "image": "957681.jpg", "boundingbox": "[98.13902, 34.79829, 143.4635, 114.44523]", "wikiid": "Q342282"},..] |
-| WIKIPerson_Test_V1.0      |      6k       | [{"id": 0, "image": "136577.jpg", "boundingbox": "[121.3156, 42.358982, 169.73543, 118.90385]", "wikiid": "Q22686"}...] |
-
-(Notice：After the split of the original dataset and to debias influence of the entity's popularity, we remove some instances so that each entity appears at most once in WIKIPerson_Test_V1.0. It may make the sum of numbers slightly smaller than 48k.)
+|                 | *#Image* | *#Coverd Entity* | *#Knowledge Base* |
+| --------------- | -------- | ---------------- | ----------------- |
+| WIKIPerson_V1.0 | 48k      | 13K              | 120K              |
 
 ### Legal Notices
 
